@@ -1,0 +1,13 @@
+###> symfony/framework-bundle ###
+.env
+/www/bundles/
+/var/
+/vendor/
+###< symfony/framework-bundle ###
+/www/api-reference/
+/www/swagger.json
+/.idea/
+
+/node_modules/
+/www/dist/
+

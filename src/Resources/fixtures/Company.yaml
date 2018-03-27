@@ -1,0 +1,10 @@
+App\Entity\Company:
+
+    company_{1..10}:
+        __construct: [<cs_CZ:email()>]
+        name: <cs_CZ:company()>
+        identificationNumber: <cs_CZ:randomNumber(8)>
+        taxIdentificationNumber: <cs_CZ:randomNumber(8)>
+        address.city: <cs_CZ:city()>
+        address.street: <cs_CZ:streetName()>
+        address.zip: <cs_CZ:postcode()>

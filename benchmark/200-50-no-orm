@@ -1,0 +1,44 @@
+Benchmarking pat.dev (be patient)
+Completed 100 requests
+Completed 200 requests
+Finished 200 requests
+
+
+Server Software:        Apache/2.4.28
+Server Hostname:        pat.dev
+Server Port:            80
+
+Document Path:          /api/users
+Document Length:        134 bytes
+
+Concurrency Level:      50
+Time taken for tests:   8.232 seconds
+Complete requests:      200
+Failed requests:        0
+Keep-Alive requests:    0
+Total transferred:      100200 bytes
+HTML transferred:       26800 bytes
+Requests per second:    24.29 [#/sec] (mean)
+Time per request:       2058.054 [ms] (mean)
+Time per request:       41.161 [ms] (mean, across all concurrent requests)
+Transfer rate:          11.89 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0    1   0.9      0       3
+Processing:   570 1974 577.0   2004    3115
+Waiting:      569 1972 577.4   2004    3115
+Total:        573 1975 576.4   2006    3115
+WARNING: The median and mean for the initial connection time are not within a normal deviation
+        These results are probably not that reliable.
+
+Percentage of the requests served within a certain time (ms)
+  50%   2006
+  66%   2207
+  75%   2368
+  80%   2470
+  90%   2670
+  95%   2888
+  98%   2994
+  99%   3082
+ 100%   3115 (longest request)

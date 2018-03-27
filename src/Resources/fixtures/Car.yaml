@@ -1,0 +1,62 @@
+App\Entity\Car:
+    car_1:
+        __construct: ["Volswagen Passat", "@company_1"]
+        kilometres: 120000
+        color: "#adadad"
+        yearOfManufacture: 2010
+
+    car_2:
+        __construct: ["Volswagen Golf", "@company_2"]
+        kilometres: 130000
+        color: "#ffffff"
+        yearOfManufacture: 2011
+
+    car_3:
+        __construct: ["Škoda Octavia", "@company_3"]
+        kilometres: 140000
+        color: "#000000"
+        yearOfManufacture: 2012
+
+    car_4:
+        __construct: ["Škoda Rapid", "@company_4"]
+        kilometres: 150000
+        color: "#000000"
+        yearOfManufacture: 2009
+
+    car_5:
+        __construct: ["Škoda Fabia", null, "@company_5"]
+        kilometres: 80000
+        color: "#334768"
+        yearOfManufacture: 2008
+
+    car_6:
+        __construct: ["Škoda Fabia", null, "@company_6"]
+        kilometres: 60000
+        color: "#334768"
+        yearOfManufacture: 2010
+
+    car_7:
+        __construct: ["Škoda Fabia", null, "@company_7"]
+        kilometres: 40000
+        color: "#c4bd44"
+        yearOfManufacture: 2010
+
+    car_8:
+        __construct: ["Volswagen Golf", null, "@company_8"]
+        kilometres: 124000
+        color: "#275b38"
+        yearOfManufacture: 2004
+
+
+    car_9:
+        __construct: ["Škoda Fabia", null, "@company_9"]
+        kilometres: 109500
+        color: "#f200c9"
+        yearOfManufacture: 2005
+
+
+    car_10:
+        __construct: ["Volswagen Golf", null, "@company_10"]
+        kilometres: 128300
+        color: "#275b38"
+        yearOfManufacture: 2006

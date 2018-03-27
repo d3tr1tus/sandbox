@@ -1,0 +1,52 @@
+{
+    "env": {
+        "browser": true,
+        "node": true,
+        "es6": true
+    },
+    "extends": [
+        "eslint:recommended",
+        "plugin:react/recommended"
+    ],
+    "plugins": [
+        "react"
+    ],
+    "rules": {
+        "indent": [ "error", 4, { "SwitchCase": 1 } ],
+        "linebreak-style": ["error", "unix"],
+        "quotes": [ "error", "double" ],
+        "semi": [ "error", "always" ],
+        "no-alert": [ "error" ],
+        "no-else-return": [ "error" ],
+        "no-return-await": [ "error" ],
+        "no-self-compare": [ "error" ],
+        "require-await": [ "error" ],
+        "vars-on-top": [ "error" ],
+        "global-require": [ "error" ],
+        "no-mixed-requires": [ "error" ],
+        "no-new-require": [ "error" ],
+        "camelcase": [ "error" ],
+        "func-name-matching": [ "error" ],
+        "max-len": [ "error", 140 ],
+        "max-lines": [ "error", 300 ],
+        "max-params": [ "error", 3 ],
+        "no-array-constructor": [ "error" ],
+        "arrow-spacing": [ "error" ],
+        "no-var": [ "error" ],
+        "prefer-const": [ "error" ],
+        "prefer-template": [ "error" ],
+        "comma-dangle": [ "error", "always-multiline" ],
+        "eqeqeq": [ "error", "always" ],
+        "valid-jsdoc": [ "warn" ]
+    },
+    "parser": "babel-eslint",
+    "parserOptions": {
+        "ecmaVersion": 6,
+        "sourceType": "module",
+        "ecmaFeatures": {
+            "jsx": true,
+            "modules": true,
+            "experimentalObjectRestSpread": true
+        }
+    }
+}

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Administrace</title>
+    <link href="/css/antd.min.css" rel="stylesheet" type="text/css" />
+    <link href="/css/main.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+
+    <div id="app">Starting..</div>
+
+    {% if APP_ENV == "dev" %}
+        <script src="http://localhost:3030/dist/index.js"></script>
+    {% else %}
+        <script src="/dist/index.js"></script>
+    {% endif %}
+
+</body>
+
+</html>

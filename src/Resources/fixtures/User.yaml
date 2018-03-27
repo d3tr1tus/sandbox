@@ -1,0 +1,20 @@
+App\Entity\User:
+
+    admin:
+        __construct: ["admin@atreo.cz"]
+        role: "ROLE_ADMIN"
+        phone: "+420777123123"
+        firstName: "Admin"
+        lastName: "Admin"
+        password: <symfonyPassword("admin")>
+
+    user_{1..100}:
+        __construct: [<cs_CZ:email()>]
+        phone: "+420777223223"
+        firstName: <cs_CZ:firstName()>
+        lastName: <cs_CZ:lastName()>
+        password: <uuid()>
+        address.city: <cs_CZ:city()>
+        address.street: <cs_CZ:streetName()>
+        address.zip: <cs_CZ:postcode()>
+        address.country: <randomElement(['CZ','GB','US'])>
